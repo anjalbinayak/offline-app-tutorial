@@ -4,12 +4,12 @@ self.addEventListener('install', (event) => {
         caches.open('offlineAppDemo').then(function(cache){
             
             return cache.addAll([
-               '/',
-              '/index.html',
-              '/styles/style.css',
-              '/scripts/app.js',
-              '/img/offline.png',
-              '/img/online.png'
+               '/offline-app-tutorial/',
+              '/offline-app-tutorial/index.html',
+              '/offline-app-tutorial/styles/style.css',
+              '/offline-app-tutorial/scripts/app.js',
+              '/offline-app-tutorial/img/offline.png',
+              '/offline-app-tutorial/img/online.png'
 
             ]);
         })
