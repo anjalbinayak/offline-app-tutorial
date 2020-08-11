@@ -9,7 +9,7 @@
 <body>
     <div class="root">
         <div class="container">
-            <img id="status-identifier" src="/img/offline.png" >
+            <img id="status-identifier" src="/offline-app-tutorial/img/online.png" >
             <h1>This Page Is Loaded Despite of Internet Connection, Isnt it Amazing?  </h1>
             <p id="status"></p>
         </div>
@@ -19,7 +19,7 @@
 <script src="scripts/app.js"></script>
 <script>
     if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js');
+  navigator.serviceWorker.register('sw.js');
 }
 </script>
 </html>
